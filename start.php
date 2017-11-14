@@ -30,9 +30,9 @@ $width = '100';
 $height = '1000';
 
 //PDF CONVERSION TO IMAGE
-//PdfConversion::convertToImage($url, $path.$imageJpeg);
+PdfConversion::convertToImage($url, $path.$imageJpeg);
 //IMAGE SIZE MANIPULATION
-//ImageManipulation::changeImageDimensions($path.$imageJpeg, $width, $height);
+ImageManipulation::changeImageDimensions($path.$imageJpeg, $width, $height);
 
 //CONNECT TO DATABASE
 try {
