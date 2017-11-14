@@ -1,0 +1,16 @@
+{
+  "autoload":{
+    "psr-4":{
+      "UserEmail\\" : "UserEmail",
+      "PdfToImage\\" : "PdfToImage"
+    }
+  },
+  "require": {
+  "silex/silex": "^2.0.@dev",
+  "twig/twig": "~2.0",
+  "monolog/monolog": "^1.23",
+  "swiftmailer/swiftmailer":"^6.0",
+  "spatie/pdf-to-image": "^1.5",
+  "spatie/image": "^1.3"
+  }
+}
