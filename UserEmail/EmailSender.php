@@ -25,7 +25,7 @@ class EmailSender
 
     // Create a message
     $message = new \Swift_Message('Department of Science Newsletter');
-    $data['image_src'] = $message->embed(\Swift_Image::fromPath('documents/newimg.jpg'));
+    $data['image_src'] = $message->embed(\Swift_Image::fromPath('images/newimg.jpg'));
 
     $msg = $twig -> render('newsletterTemplate.html.twig', $data);
     $message -> setFrom('your email address'); //$configEmail->fromName);
