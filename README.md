@@ -1,4 +1,6 @@
 # newsletter
+ Updated all files on 11/20
+
 
 Updated all the files....
 -- Removed the database code
