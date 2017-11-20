@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>News Letter</title>
+  <style>
+    html, body {
+      height: 1200px;
+    }
+    .main_container {
+      background-color: purple;
+      width: auto;
+      height: auto;
+    }
+    .left_container {
+      min-width: 25%;
+      min-height: 100%;
+      border: 0px solid red;
+    }
+    .middle_container {
+      background-color: white;
+      width: 50%;
+      height: 100%;
+      text-align: center;
+      border: 0px solid yellow;
+    }
+
+    .center_text {
+        margin: auto;
+        width: 50%;
+        border: 5px solid green;
+        padding: 10px;
+    }
+
+    .middle_image {
+      background-color: white;
+      width: 100%;
+      height: 55%;
+      border: 0px solid black;
+    }
+
+    .middle_text {
+      width: 100%;
+      height: 45%;
+      text-align: center;
+      border: 0px solid black;
+    }
+    .dwnldlink {
+      width: 100%;
+      background-color: #E5C1BE;
+      text-align: center;
+      font-size: 24px;
+      border: 0px solid black;
+      padding: 0,0%,0,10%
+    }
+
+    .right_container {
+      width: 25%;
+      height: 100%;
+      border: 0px solid green;
+    }
+    }
+  </style>
+</head>
+<body>
+  <table class="main_container">
+    <tr>
+      <td>
+        <table class="left_container">
+          <tr>
+            <td> &nbsp;
+              <!--LEFT SIDE-->
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table class="middle_container">
+          <tr>
+            <td>
+              <table class="middle_image">
+                <tr>
+                  <td>
+                    <img src= "{{image_src}}" alt="News Letter">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="center_text">
+                <tr>
+                  <td>
+                    <a href='ccny.cuny.edu' class="dwnldlink"> Download Document </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>
+                      Office of the Dean<br />
+                      Division of Science<br>
+                      160 Convent Avenue, Marshak 1320 New York, NY 10031<br />
+                      P: (212) 650-6850 | cgonzalez@ccny.cuny.edu<br />
+                      ccny.cuny.edu/science<br />
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table class="right_container">
+          <tr>
+            <td> &nbsp;
+            <!--RIGHT SIDE-->
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
